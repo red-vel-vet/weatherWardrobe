@@ -63,6 +63,7 @@ app.post("/submit", (req, res) => {
     })
     .catch(error => {
       console.error("Error retrieving lat and lng:", error);
+      res.redirect("/");
     });
 });
 
