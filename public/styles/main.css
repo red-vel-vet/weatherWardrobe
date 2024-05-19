@@ -5,6 +5,56 @@ body.default {
     color: gainsboro;
     }
 
+body.Clear {
+    background-image: url('https://images.unsplash.com/photo-1622278647429-71bc97e904e8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: gainsboro;
+}
+
+body.partlyCloudy {
+    background-image: url('https://images.unsplash.com/photo-1597621864521-93dfdb10c6b1?q=80&w=1630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background- size: cover;
+    background-position: center;
+    color: gainsboro;
+}
+
+body.cloudy {
+    background-image: url('https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=1502&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: gainsboro;
+}
+
+.weather-container {
+    color: darkslategray; 
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    bottom: 0;
+  }
+
+body.rainy {
+    background-image: url('https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: gainsboro;
+}
+
+body.Snow {
+    background-image: url('https://images.unsplash.com/photo-1516715094483-75da7dee9758?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: gainsboro;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.5); /* White with 80% opacity */
+    padding: 15px;
+    border-radius: 5px;
+    height: 30vh;
+  }
+
 html, body {
 height: 100%;
 margin: 0;
@@ -47,7 +97,7 @@ header, body, footer, form {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
   }
 
@@ -71,4 +121,49 @@ body {
     margin: 0;
     padding: 0;
     align-items:center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image-container img {
+    margin-bottom: 10px; /* Adjust as needed */
+    height: calc(27vh / 3);
+}
+
+img {
+    opacity:.1;
+}
+#umbrealla.Snow, #umbrella.rainy {
+    opacity: 1;
+}
+
+#sunglasses.Clear, #sunglasses.partlyCloudy {
+    opacity: 1;
+}
+
+#tshirt.tshirt {
+    opacity: 1;
+}
+
+#sweater.sweater {
+    opacity: 1;
+}
+
+#coat.coat {
+    opacity: 1;
+}
+
+#beanie.beanie {
+    opacity: 1;
 }
