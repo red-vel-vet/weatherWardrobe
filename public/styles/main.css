@@ -167,3 +167,33 @@ img {
 #beanie.beanie {
     opacity: 1;
 }
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-group input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .input-group input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
